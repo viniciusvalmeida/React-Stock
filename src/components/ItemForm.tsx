@@ -93,6 +93,7 @@ export default function ItemForm({ itemToUpdate }: ItemFormProps) {
         <div>
           <label htmlFor="category">Categoria</label>
           <select
+            className="categorySelect"
             name="category"
             id="category"
             required

@@ -157,6 +157,11 @@ input, textarea, select {
   width: 100%;
 }
 
+.categorySelect {
+  height: 2.7rem;
+  font-size: 1rem;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
