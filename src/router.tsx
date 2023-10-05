@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
-import { Home } from "./Pages/Home";
-import { RootLayout } from "./Pages/RootLayout";
-import { CreateItem } from "./Pages/CreateItem";
-import { ItemsLayout } from "./Pages/ItemsLayout";
-import { ListItems } from "./Pages/ListItems";
-import { ShowItem } from "./Pages/ShowItem";
-import { UpdateItem } from "./Pages/UpdateItem";
+import { Home } from "./pages/Home";
+import { RootLayout } from "./pages/RootLayout";
+import { CreateItem } from "./pages/CreateItem";
+import { ItemsLayout } from "./pages/ItemsLayout";
+import { ListItems } from "./pages/ListItems";
+import { ShowItem } from "./pages/ShowItem";
+import { UpdateItem } from "./pages/UpdateItem";
 
 export const router = createBrowserRouter([
   {
