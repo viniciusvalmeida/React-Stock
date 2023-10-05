@@ -64,8 +64,8 @@ export const StockContextProvider = ({ children }: StockContextProviderProps ) =
 
   const deleteItem = (id: number) => {
     setItems( currentState => {
-      const newState = currentState.filter( item => item.id !== id)
-      localStorage.setItem( 'stock-items', JSON.stringify(newState) )
+      const newState = currentState.filter(item => item.id !== id)
+      localStorage.setItem('stock-items', JSON.stringify(newState))
       return newState
     } )
   }
