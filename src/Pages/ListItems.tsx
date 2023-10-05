@@ -1,3 +1,5 @@
+import ItemsTable from "../components/ItemsTable"
+
 export const ListItems = () => {
-  return <h1>ListItems</h1>
+  return <ItemsTable />
 }
