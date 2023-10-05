@@ -8,3 +8,11 @@ export interface ItemIfc {
   createdAt: Date
   updatedAt: Date
 }
+
+export interface DefaultItemIfc {
+  name: string
+  qtd: number
+  price: number
+  category: string
+  description: string
+}
